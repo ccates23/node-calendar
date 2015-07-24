@@ -1,0 +1,30 @@
+{
+  "name": "node-calendar",
+  "version": "1.0.0",
+  "description": "Node, Mocha, Chai",
+  "main": "app.js",
+  "scripts": {
+    "test-cov": "mocha",
+    "test": "istanbul cover _mocha",
+    "codeclimate-coverage": "codeclimate-test-reporter < ./coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccates23/node-calendar.git"
+  },
+  "author": "Chad Cates <cates.chad@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccates23/node-calendar/issues"
+  },
+  "homepage": "https://github.com/ccates23/node-calendar#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "codeclimate-test-reporter": "^0.1.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
